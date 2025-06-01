@@ -1,0 +1,17 @@
+  datasource:
+    url: jdbc:mysql://localhost:3306/department_db
+    username: root
+    password: rootroot
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+eureka:
+  instance:
+    prefer-ip-address: true
+    client:
+      serverUrl:
+        defaultZone: http://localhost:8761/
