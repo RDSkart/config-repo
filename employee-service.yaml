@@ -20,5 +20,5 @@ eureka:
       serverUrl:
         defaultZone: http://localhost:8761/
 
-message: Hi, Employees from config server 9
+message: Hi, Employees from config server 10
 
