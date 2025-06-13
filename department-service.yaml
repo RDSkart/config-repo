@@ -5,11 +5,14 @@ spring:
     password: rootroot
 
   jpa:
-    properties:
-      hibernate:
-        dialect: org.hibernate.dialect.MySQLDialect
+   properties:
     hibernate:
-      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQLDialect
+   hibernate:
+     ddl-auto: update
+server:
+  port: 8080
+
 eureka:
   instance:
     prefer-ip-address: true
